@@ -1,0 +1,43 @@
+/* =====================
+KEYFRAMES
+====================== */
+@keyframes spin{
+  50%{
+    transform: scale()
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+/* =====================
+MIXINS
+====================== */
+@mixin cf{
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin pos-center{
+  position: absolute;
+  margin: auto;
+  top: 0; right: 0; bottom: 0; left: 0;
+}
+
+@mixin btn-reset{
+  appearance: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  &:focus{
+    outline: none;
+  }
+}

@@ -1,0 +1,24 @@
+// Colours
+$primary-c: #2c3e50;
+$primary-c--dark: darken($primary-c, 5%);
+
+$highlight1-c: #37c7a3;
+$highlight1--dark: darken($highlight1-c, 5%);
+
+$highlight2-c: #37b1c7;
+$highlight2--dark: darken($highlight2-c, 5%);
+
+$amber: #ff9e40;
+
+$bg-c: #f3f0f6;
+$bg-c--dark: #DEDCE1;
+
+$off-white-c: #ceced7;
+
+// Breakpoints
+$small: 480px;
+$medium: 768px;
+$large: 1024px;
+
+// Misc
+$nav-width: 180px;
